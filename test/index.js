@@ -1,20 +1,11 @@
-# ogp-meta
-
-[![version](https://img.shields.io/npm/v/ogp-meta.svg) ![download](https://img.shields.io/npm/dm/ogp-meta.svg)](https://www.npmjs.com/package/ogp-meta)
-
-Generate open graph meta tags.
-
-## Usage
-
-```javascript
 var OpenGraph = require('../');
 
 var ogp = new OpenGraph();
 
 ogp.title('title');
 ogp.type('website');
-ogp.site_name('site_name');
 ogp.description('description');
+ogp.site_name('site_name');
 ogp.url('http://ogp-meta.npm');
 // ogp.image('http://image url');
 ogp.image({
@@ -34,9 +25,3 @@ ogp.app({
 }, 'android');
 
 console.log(ogp.toHTML());
-```
-
-
-## LICENSE
-
-ogp-meta is licensed under the MIT license.

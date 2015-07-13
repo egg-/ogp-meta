@@ -1,1 +1,1 @@
-module.exports = require('./lib/opg-meta');
+module.exports = require('./lib/ogp-meta');

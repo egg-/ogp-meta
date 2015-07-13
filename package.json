@@ -1,5 +1,5 @@
 {
-  "name": "opg-meta",
+  "name": "ogp-meta",
   "version": "0.1.0",
   "author": {
     "name": "egg",
@@ -9,7 +9,7 @@
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git://github.com/egg-/opg-meta.git"
+    "url": "git://github.com/egg-/ogp-meta.git"
   },
   "keywords": [
     "opengraph",
@@ -23,5 +23,6 @@
     "matchdep": "^0.3.0"
   },
   "dependencies": {
+    "html-entities": "^1.1.2"
   }
 }
