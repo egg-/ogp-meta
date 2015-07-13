@@ -1,0 +1,27 @@
+{
+  "name": "opg-meta",
+  "version": "0.1.0",
+  "author": {
+    "name": "egg",
+    "email": "i@egg.pe.kr"
+  },
+  "description": "Generate open graph meta tags.",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/egg-/opg-meta.git"
+  },
+  "keywords": [
+    "opengraph",
+    "meta"
+  ],
+  "license": "MIT",
+  "main": "./index",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-nodemon": "^0.4.0",
+    "matchdep": "^0.3.0"
+  },
+  "dependencies": {
+  }
+}
