@@ -7,13 +7,17 @@ ogp.type('website')
 ogp.description('description')
 ogp.site_name('site_name')
 ogp.url('http://ogp-meta.npm')
-// ogp.image('http://image url')
+ogp.image('http://image url')
+// reset
+ogp.image(null)
 ogp.image({
   url: 'http://image url',
   width: 400,
   height: 400
 })
-// ogp.video('http://video url')
+ogp.video('http://video url')
+// reset
+ogp.video(null)
 ogp.video({
   url: 'http://video url',
   width: 1024,
