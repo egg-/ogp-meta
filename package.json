@@ -1,6 +1,6 @@
 {
   "name": "ogp-meta",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "author": {
     "name": "egg",
     "email": "i@egg.pe.kr"
@@ -23,6 +23,6 @@
     "matchdep": "^0.3.0"
   },
   "dependencies": {
-    "html-entities": "^1.1.2"
+    "striptags": "^2.1.1"
   }
 }
